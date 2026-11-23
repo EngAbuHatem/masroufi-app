@@ -1,4 +1,4 @@
-const CACHE_NAME = 'masroufi-v2';
+const CACHE_NAME = 'masroufi-v3';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -45,7 +45,7 @@ self.addEventListener('fetch', event => {
     caches.match(event.request).then(cached => {
       const networkFetch = fetch(event.request)
         .then(res => {
-          if (res && res.status === 200 && res.type === 'basic') {
+          if (res && res.status === 200) {
             const clone = res.clone();
             caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
           }
