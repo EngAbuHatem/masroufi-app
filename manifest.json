@@ -1,14 +1,14 @@
 {
   "name": "مصروفي - إدارة مصروف الأولاد",
   "short_name": "مصروفي",
-  "description": "تطبيق لمتابعة مصروف الأولاد: الاستلام، الصرف، المتبقي، وسجل الحركات.",
+  "description": "تطبيق لمتابعة مصروف الأولاد على جهازك: الاستلام، الصرف، المتبقي، وسجل الحركات.",
   "lang": "ar",
   "dir": "rtl",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#EEF3F8",
-  "theme_color": "#17407A",
+  "background_color": "#090E1A",
+  "theme_color": "#0F294A",
   "icons": [
     {
       "src": "icon-192.png",
